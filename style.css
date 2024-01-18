@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Ubuntu', sans-serif; ;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: #292929;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container h1 {
+    color: aliceblue;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.cadBox {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    max-width: 800px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: black 20px 20px;
+}
+
+.EsqBox {
+    padding: 50px;
+    background-color: rgba(10, 139, 143, 0.658);
+    flex-basis: 50%;
+    flex-grow: 1;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+.direBox {
+    padding: 50px;
+    flex-basis: 10px;
+    flex-grow: 1;
+}
+
+.input-box {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid aliceblue;
+    outline: none;
+    color: aliceblue;
+    font-size: 12px;
+    background: transparent;
+}
+
+::placeholder{
+    color: aliceblue;
+}
+
+input[type=checkbox]{
+    margin-top: 30px;
+}
+
+.EsqBox label{
+    font-size: 14px;
+}
+
+.EsqBox button{
+    width: 100%;
+    background:aliceblue;
+    padding: 10px;
+    border: 0;
+    outline: none;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.EsqBox button:hover{
+    font-weight: 500;
+    background: black;
+    color: aliceblue;
+}
+.EsqBox button span{
+display: inline-block;
+width: 0px;
+overflow: hidden;
+transition: width 0.5s;
+
+}
+.EsqBox button:hover span{
+    width: 30px;
+}
+
+.direBox a{
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+    max-width: 20px 0;
+    min-width: 250px ;
+    color: aliceblue;
+    font: 14px;
+    padding: 15px 30px;
+    text-decoration: none;
+    background:   rgba(10, 139, 143, 0.616);
+}
+.direBox a {
+    font-size: 18px ;
+    margin: 10px;
+    border-radius: 8px;
+}
